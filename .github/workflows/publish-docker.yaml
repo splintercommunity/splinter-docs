@@ -27,7 +27,7 @@ jobs:
       github.event.workflow_run.conclusion == 'success' &&
       github.event.workflow_run.event == 'push' &&
       github.event.workflow_run.head_branch == 'main' &&
-      github.repository_owner == 'Cargill'
+      github.repository_owner == 'splintercommunity'
     runs-on: ubuntu-latest
     steps:
       - name: Display envvars
