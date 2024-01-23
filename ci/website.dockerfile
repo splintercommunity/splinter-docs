@@ -27,7 +27,7 @@ RUN redoc-cli bundle /project/docs/0.7/references/api/openapi.yml -o index_0.7.h
 
 # -------------=== jekyll build ===-------------
 
-FROM jekyll/jekyll:3.8 as jekyll
+FROM jekyll/jekyll as jekyll
 
 RUN gem install \
     bundler \

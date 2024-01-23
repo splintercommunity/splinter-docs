@@ -1,6 +1,7 @@
 # Splinter v0.4 Release
 
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -107,18 +108,18 @@ Reference](/docs/0.4/api/#tag/Biome).
 ### Scabbard Service for Smart Contract Execution
 
 Scabbard is a Splinter service that runs the Sabre smart contract engine using
-Hyperledger Transact for state management. Scabbard uses two-phase consensus to
+Transact for state management. Scabbard uses two-phase consensus to
 reach agreement on transactions. The Scabbard service loads contracts from smart
 contract archive (.scar) files and handles state agreement for those smart
 contracts.
 
-Splinter uses the following Hyperledger projects for smart contract support:
+Splinter uses the following projects for smart contract support:
 
 * [Sawtooth Sabre](https://github.com/hyperledger/sawtooth-sabre): Implements
   on-chain smart contracts that are executed in a WebAssembly virtual machine
 )
-* [Transact](https://github.com/hyperledger/transact): Platform-agnostic library
-  for executing transactions with smart contracts
+* [Transact](https://github.com/splintercommunity/transact): Platform-agnostic
+  library for executing transactions with smart contracts
 
 The `scabbard` library is packaged as a separate crate available at
 [crates.io](https://crates.io/crates/scabbard).

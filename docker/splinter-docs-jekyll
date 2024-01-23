@@ -14,7 +14,7 @@
 
 FROM ruby
 
-RUN gem install jekyll -- --use-system-libaries
+RUN gem install jekyll
 
 RUN gem install \
     bundler \

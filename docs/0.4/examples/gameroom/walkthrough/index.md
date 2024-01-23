@@ -1,6 +1,7 @@
 # Gameroom Technical Walkthrough
 
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -16,7 +17,7 @@ PDF](https://files.splinter.dev/docs/Gameroom_Walkthrough-Splinter_v0.3.4.pdf).
 Distributed ledger technologies have the potential to revolutionize how businesses
 communicate and transact. At Cargill, we are leading the revolution with
 involvement in several open-source projects, including Hyperledger Sawtooth,
-Hyperledger Transact, and Splinter. This document outlines an example application,
+Transact, and Splinter. This document outlines an example application,
 Gameroom, that uses technologies from each of these projects to demonstrate our
 vision of using smart contracts to enhance business and customer relationships.
 
@@ -2079,7 +2080,7 @@ create services. After the Acme node responds (described in "Behind Scene 6"),
 the Bubba Bakery admin service initializes its scabbard service for the new
 gameroom. Scabbard is the Splinter service for Gameroom that includes the
 [Sawtooth Sabre](https://sawtooth.hyperledger.org/docs/1.2/sabre/sabre_transaction_family.html)
-transaction handler and [Hyperledger Transact](https://crates.io/crates/transact),
+transaction handler and [Transact](https://crates.io/crates/transact),
 using two-phase commit consensus to agree on state. Gameroom uses this service
 to store the XO smart contract and manage XO state. Finally, the Gameroom daemon
 updates the gameroom status in its local database from "Accepted" to "Ready".
@@ -2602,7 +2603,7 @@ the Bubba Bakery admin service makes a call to the service orchestrator to
 initialize the scabbard service for the new gameroom. As described above,
 scabbard is the Splinter service for Gameroom that includes the
 [Sawtooth Sabre](https://sawtooth.hyperledger.org/docs/1.2/sabre/sabre_transaction_family.html)
-transaction handler and [Hyperledger Transact](https://crates.io/crates/transact),
+transaction handler and [Transact](https://crates.io/crates/transact),
 using two-phase commit consensus to agree on state. Gameroom uses this service
 to store the XO smart contract and manage XO state.
 
@@ -5091,7 +5092,7 @@ and is not yet ready for use. The Gameroom application uses the term
 Splinter service that includes the
 <a href="https://sawtooth.hyperledger.org/docs/1.2/sabre/sabre_transaction_family.html">
 Sawtooth Sabre</a> transaction handler and
-<a href="https://crates.io/crates/transact">Hyperledger Transact</a>, using
+<a href="https://crates.io/crates/transact">Transact</a>, using
 two-phase commit consensus to agree on state. This application-specific service
 is specifically configured to work with the example Gameroom application.
 </p>

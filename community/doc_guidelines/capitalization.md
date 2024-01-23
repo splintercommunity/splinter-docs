@@ -1,6 +1,7 @@
 # Splinter Capitalization Guidelines
 
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -62,7 +63,7 @@ documentation and updating existing content.
 * Gameroom _(example application)_
 * gameroom _(circuit in Gameroom)_
 * `gameroomd` _(daemon; always lowercase)_
-* Grid _(at first use: Hyperledger Grid)_
+* Grid
 * `gridd` _(daemon; always lowercase)_
 
 ## I
@@ -137,7 +138,7 @@ documentation and updating existing content.
 
 * tic-tac-toe _(with two hyphens)_
 * TOML file _(not "toml file" or ".toml file")_
-* Transact _(at first use: Hyperledger Transact)_
+* Transact
 * two-phase commit protocol (or "consensus", depending on context) _(avoid "2PC")_
 
 ## W

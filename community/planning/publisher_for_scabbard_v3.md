@@ -173,8 +173,8 @@ pub trait PendingBatches<B: Batch>: Send {
 #### BatchVerifier
 This trait will be used to execute the transactions inside of the batches and
 return a list of `BatchExecutionResults`. This trait is meant to mimic the
-[Scheduler](https://docs.rs/transact/0.4.5/transact/scheduler/trait.Scheduler.html)
-trait in Hyperledger Transact, however it is currently simplified to take out
+[Scheduler](https://docs.rs/transact/0.4.7/transact/scheduler/trait.Scheduler.html)
+trait in Transact, however it is currently simplified to take out
 any assumptions about the threading model in the `Executor` and `Scheduler`.
 
 ```rust
@@ -587,8 +587,8 @@ that differs from the above process.
 This design is inspired by the existing Publisher in [Hyperledger
 Sawtooth](https://sawtooth.hyperledger.org/) Core
 and the Sawtooth library. As well as the publishing process that is used in
-Scabbard and the transaction execution process in [Hyperledger
-Transact](https://docs.rs/transact/0.4.3/transact/index.html).
+Scabbard and the transaction execution process in [
+Transact](https://docs.rs/transact/0.4.7/transact/index.html).
 
 ## Unresolved questions
 
@@ -596,7 +596,7 @@ Should the `PublisherFactory` enforce the number of threads allowed with a
 thread pool? Or should the caller control how many publishing threads should
 exist, as publisher threads correlated to the number of `PublishHandles`?
 
-The current Hyperledger Transact implementation requires several threads running
+The current Transact implementation requires several threads running
 for the transaction execution. How this API may be improved to reduce the
 number of threads required is yet to be determined.
 

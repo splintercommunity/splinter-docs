@@ -1,5 +1,6 @@
 % SCABBARD(1) Cargill, Incorporated | Splinter Commands
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -19,7 +20,7 @@ DESCRIPTION
 ===========
 
 The `scabbard` utility is the command-line interface for scabbard, a Splinter
-service that runs Sawtooth Sabre smart contracts on Hyperledger Transact. This
+service that runs Sawtooth Sabre smart contracts on Transact. This
 CLI is a convenient tool for uploading, viewing, and executing smart contracts.
 
 * Run `scabbard *SUBCOMMAND* --help` to see information about a specific
