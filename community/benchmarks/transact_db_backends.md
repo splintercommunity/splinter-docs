@@ -1,5 +1,6 @@
-# Benchmark of Hyperledger Transact 0.3.7 LMDB and experimental SQLite backends
+# Benchmark of Transact 0.3.7 LMDB and experimental SQLite backends
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -7,7 +8,7 @@
 
 ## Summary
 
-Hyperledger Transact provides a number of core features used by Splinter, such
+Transact provides a number of core features used by Splinter, such
 as transaction execution and state storage.  As these features play an important
 role in the operation of a splinter network, it is important to measure the
 performance of these subsystems to determine where optimizations can be made.

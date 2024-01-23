@@ -1,6 +1,7 @@
 # Introduction
 
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -82,7 +83,7 @@ ledger functionality in the core architecture.
 Splinter provides the Scabbard service as an example implementation of a
 distributed ledger platform. Scabbard includes the following components:
 
-* [Hyperledger Transact](https://github.com/hyperledger/transact), a
+* [Transact](https://github.com/splintercommunity/transact), a
   platform-agnostic Rust library for executing transactions from on-ledger smart
   contracts with a smart contract engine. Transact handles all aspects of
   scheduling, transaction dispatch, and state management.
@@ -201,7 +202,7 @@ Splinter includes several APIs for application development:
 * **Service API** for building custom services to send and manage opaque
   messages between nodes on a circuit. The Scabbard service handles consensus,
   smart contracts, and transaction processing (with the two-phase commit
-  agreement protocol, Sawtooth Sabre, and Hyperledger Transact, respectively).
+  agreement protocol, Sawtooth Sabre, and Transact, respectively).
   However, Splinter is designed to support other smart contract engines and
   transaction processing software.
 
@@ -235,7 +236,7 @@ feedback is strongly encouraged for experimental features.
 
 ## Event Subscription for State Changes
 
-As described earlier, the Scabbard service includes Hyperledger Transact for
+As described earlier, the Scabbard service includes Transact for
 transaction processing and state management. State agreement is achieved with
 the Merkle-Radix tree, allowing multiple nodes or services to prove they have
 the same data down to the last bit, cryptographically.

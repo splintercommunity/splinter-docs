@@ -1,6 +1,7 @@
 # Roadmap
 
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -57,7 +58,7 @@ of downtime for upgrades or single-point-of-failure issues.
 | REST API - Authorization | Complete | [REST API Authorization Design]({% link community/planning/rest_api_authorization.md %}) |
 | REST API - Cylinder JWT Authentication | Complete | [Cylinder JWT Authentication]({% link community/planning/cylinder_jwt_authentication.md %}) |
 | REST API - OAuth 2 Authentication | Complete | [OAuth 2 REST API Authentication]({% link community/planning/oauth2_rest_api_authentication.md %}) |
-| Transact SQL Support | Complete | [Code](https://github.com/hyperledger/transact/tree/main/libtransact/src/database) |
+| Transact SQL Support | Complete | [Code](https://github.com/splintercommunity/transact/tree/main/libtransact/src/database) |
 | WebSocket Transport | Experimental | [Code](https://github.com/Cargill/splinter/tree/main/libsplinter/src/transport/ws) |
 
 
@@ -67,7 +68,7 @@ of downtime for upgrades or single-point-of-failure issues.
 
 The roadmap is a collaborative effort derived from both agile community
 feedback and long-term vision. Communities building other open source projects
-which are built upon Splinter, such as Hyperledger Grid and Hyperledger
+which are built upon Splinter, such as Grid and Hyperledger
 Sawtooth, have a substantial impact on the roadmap. Non-public projects also
 have a substantial impact.
 

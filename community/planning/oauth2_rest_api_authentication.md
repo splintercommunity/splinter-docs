@@ -1,5 +1,6 @@
 # OAuth 2 REST API Authentication
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -37,10 +38,10 @@ authentication server.
 In public environments, it is common to use authentication servers provided by
 organizations which have a large number of users. GitHub and Google both provide
 authentication servers, as do many other organizations. GitHub is interesting in
-the context of Splinter development because teams working on Splinter and
-Hyperledger projects all have existing GitHub accounts. Google is interesting
-because Google Apps is commonly used by smaller businesses, but also because of
-the robust OAuth implementation provided by Google.
+the context of Splinter development because teams working on Splinter projects
+all have existing GitHub accounts. Google is interesting because Google Apps is
+commonly used by smaller businesses, but also because of the robust OAuth
+implementation provided by Google.
 
 By supporting multiple OAuth providers, we ensure we are not implementing a
 solution that only works with a single provider. Additionally, three (Azure

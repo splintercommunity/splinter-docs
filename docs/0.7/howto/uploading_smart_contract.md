@@ -1,6 +1,7 @@
 # Uploading a Smart Contract
 
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -188,5 +189,5 @@ for details on how to create and compile a smart contract
 
 ## For More Information
 
- * [Smart Contract Upload in Grid](https://github.com/hyperledger/grid/blob/main/examples/splinter/README.md)
+ * [Smart Contract Upload in Grid](https://github.com/splintercommunity/grid/blob/main/examples/splinter/README.md)
  * [Sabre Transaction Family Spec](https://sawtooth.hyperledger.org/docs/1.2/sabre/sabre_transaction_family.html)

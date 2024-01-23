@@ -1,5 +1,12 @@
 # Testing
 
+<!--
+  Copyright 2024 Bitwise IO, Inc.
+  Copyright 2018-2021 Cargill Incorporated
+  Licensed under Creative Commons Attribution 4.0 International License
+  https://creativecommons.org/licenses/by/4.0/
+-->
+
 The following document gives an overview of some of the testing that is done
 prior to a release.
 
@@ -42,10 +49,10 @@ smart contract is configured on all scabbard services. For more information on
 the Command Family see the
 [RFC](https://github.com/hyperledger/transact-rfcs/pull/6).
 
-The Hyperledger Transact `transact workload` subcommand is set up against each
+The Transact `transact workload` subcommand is set up against each
 circuit for the Command Family and submits transactions at a rate of 2 per
 second. For more information on the workload command see the
-[man page](https://github.com/hyperledger/transact/blob/main/cli/man/transact-workload.1.md).
+[man page](https://github.com/splintercommunity/transact/blob/main/cli/man/transact-workload.1.md).
 
 At the end of the run, the merkle state for each service on a circuit is checked
 to make sure they all have the same resulting state root hash. For more
