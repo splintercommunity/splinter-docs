@@ -1,6 +1,7 @@
 # Splinter Certificates
 
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -219,7 +220,7 @@ Links Below
 [manpage]: https://www.splinter.dev/docs/0.6/references/cli/splinterd.1.html
 "splinterd man page"
 
-[exampletoml]: https://github.com/Cargill/splinter/blob/main/splinterd/packaging/splinterd.toml.example
+[exampletoml]: https://github.com/splintercommunity/splinter/blob/main/splinterd/packaging/splinterd.toml.example
 "Example splinterd.toml config file"
 
 [leclients]: https://letsencrypt.org/docs/client-options/

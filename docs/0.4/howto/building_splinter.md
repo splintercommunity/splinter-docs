@@ -1,13 +1,14 @@
 ## Building Splinter
 
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
 -->
 
 The `splinter` repository is available at
-[github.com/Cargill/splinter](https://github.com/Cargill/splinter).
+[github.com/splintercommunity/splinter](https://github.com/splintercommunity/splinter).
 
 Splinter is built using latest stable [rust](https://www.rust-lang.org/), which
 you should install via [rustup](https://rustup.rs/).

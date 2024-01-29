@@ -68,7 +68,7 @@ of the data header version, as described in the previous section.  The
 current constructor sets the connection's header version to version 1.
 
 See [this
-commit](https://github.com/Cargill/splinter/commit/1f3f2594f05d8170905eb49ce9520864b6ee8b68)
+commit](https://github.com/splintercommunity/splinter/commit/1f3f2594f05d8170905eb49ce9520864b6ee8b68)
 for an example of how to migrate from constructor to the transport
 implementation.
 

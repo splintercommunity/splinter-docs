@@ -10,7 +10,7 @@
 Splinter v0.4 is a major new release. Here's a summary of the new and noteworthy
 features in this release. For detailed changes related to the v0.4 release,
 see the [Splinter release
-notes](https://github.com/Cargill/splinter/blob/0-4/RELEASE_NOTES.md).
+notes](https://github.com/splintercommunity/splinter/blob/0-4/RELEASE_NOTES.md).
 
 If you're new to Splinter, see the
 [Splinter documentation]({% link docs/0.4/index.md %}) to learn about Splinter
@@ -176,7 +176,7 @@ use Splinter features such as Biome, scabbard, and others.
 
 For more information, see the
 [Gameroom Walkthrough]({% link docs/0.4/examples/gameroom/index.md %}) and
-[examples/gameroom](https://github.com/Cargill/splinter/tree/0-4/examples/gameroom)
+[examples/gameroom](https://github.com/splintercommunity/splinter/tree/0-4/examples/gameroom)
 in the Splinter repository.
 
 ### And More
@@ -225,9 +225,9 @@ walkthrough for the Gameroom example application.
 ## Splinter Software
 
 Splinter is open-source software that is available on GitHub in
-[Cargill/splinter](https://github.com/Cargill/splinter). Prebuilt Docker images
-are published on
+[splintercommunity/splinter](https://github.com/splintercommunity/splinter).
+Prebuilt Docker images are published on
 [splintercommunity](https://hub.docker.com/u/splintercommunity).
 
 For information on building and running Splinter, see the [Splinter
-README](https://github.com/Cargill/splinter/blob/0-4/README.md).
+README](https://github.com/splintercommunity/splinter/blob/0-4/README.md).

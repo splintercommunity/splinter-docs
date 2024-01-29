@@ -4047,7 +4047,7 @@ separate system.
 Prerequisites: This demo requires [Docker Engine](https://docs.docker.com/engine)
 and [Docker Compose](https://docs.docker.com/compose).
 
-1. Clone the [splinter repository](https://github.com/Cargill/splinter).
+1. Clone the [splinter repository](https://github.com/splintercommunity/splinter).
 
 2. To start Gameroom, run the following command from the Splinter root
    directory:

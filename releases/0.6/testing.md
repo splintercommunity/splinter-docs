@@ -82,7 +82,7 @@ Clone, update and build the Splinter and Grid repositories.
 Clone the Splinter git repository and checkout the 0-4 branch:
 
 ```
-$ git clone git@github.com:Cargill/splinter.git
+$ git clone git@github.com:splintercommunity/splinter.git
 $ cd splinter
 $ git fetch origin
 $ git checkout origin/0-4

@@ -1,6 +1,7 @@
 # Gameroom
 
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -28,7 +29,7 @@ Hub](https://hub.docker.com/u/splintercommunity), replace
 `docker-compose.yaml` with `docker-compose-dockerhub.yaml` in all commands
 below.
 
-1. Clone the [splinter repository](https://github.com/Cargill/splinter).
+1. Clone the [splinter repository](https://github.com/splintercommunity/splinter).
 
 1. To start Gameroom, run the following command from the Splinter root
    directory:

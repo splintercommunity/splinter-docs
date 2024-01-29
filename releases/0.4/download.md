@@ -8,7 +8,7 @@
 
 ## Splinter repository
 
-Clone the core [GitHub repository](https://github.com/Cargill/splinter/tree/0-4)
+Clone the core [GitHub repository](https://github.com/splintercommunity/splinter/tree/0-4)
 to view the Splinter source code, demo applications, and example Docker compose
 files for starting up a Splinter network. Learn
 [how to build Splinter]({% link docs/0.4/howto/building_splinter.md %}) and more
