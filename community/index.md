@@ -1,6 +1,7 @@
 # Splinter Community
 
 <!--
+  Copyright 2024, Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -11,32 +12,22 @@ Welcome!
 Splinter is an open source project on GitHub. We encourage you to join the
 Splinter community and contribute to this project in the following ways:
 
-**Chat** at [splinterworld.slack.com](http://splinterworld.slack.com).
-Join us on Slack to ask questions, tell us about a bug, or propose changes and
-new features. Get an invite by visiting
-[join.splinter.dev](https://join.splinter.dev).
+**Chat** at [Splinter Community Discord](https://discord.gg/VnHmwAjker).
+Join us on Discord to ask questions, tell us about a bug, or propose changes and
+new features.
 
 **Report bugs**: We track bugs as GitHub issues at
-[Cargill/splinter/issues](https://github.com/Cargill/splinter/issues).
+[splintercommunity/splinter/issues](https://github.com/splintercommunity/splinter/issues).
 
 **Contribute code**: Splinter software is licensed under the [Apache License
 Version 2.0 software license](licensing.html). This project accepts GitHub pull
 requests. For more information, see "Contributing Code", below.
 
-**Join the monthly engineering forum**: We host an open Zoom
-meeting to present brief updates on Splinter development and to provide a way
-for the Splinter developer community to connect with each other and with us.
-Please see [splinterworld.slack.com](http://splinterworld.slack.com) for next
-meeting link and time.
-
-Splinter operates under the [Cargill Code of
-Conduct](https://github.com/Cargill/code-of-conduct/blob/master/code-of-conduct.md).
-
 ## Contributing Code
 
-Splinter source code is hosted on GitHub in the [Cargill/splinter
-repository](https://github.com/Cargill/splinter). When contributing code, please
-follow these guidelines:
+Splinter source code is hosted on GitHub in the [splintercommunity/splinter
+repository](https://github.com/splintercommunity/splinter). When contributing
+code, please follow these guidelines:
 
 * Fork the repository and make your changes in a feature branch.
 
