@@ -1,10 +1,11 @@
 <!--
+  Copyright 2024, Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
 -->
 
-The [splinter-ui repository](https://github.com/Cargill/splinter-ui) includes
+The [splinter-ui repository](https://github.com/splintercommunity/splinter-ui) includes
 the Admin UI for Splinter administration. One feature of the Splinter Admin UI 
 is a profile page for the authenticated user. This document shows the new 
 designs for the profile page.
