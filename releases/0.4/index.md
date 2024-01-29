@@ -115,7 +115,7 @@ contracts.
 
 Splinter uses the following projects for smart contract support:
 
-* [Sawtooth Sabre](https://github.com/hyperledger/sawtooth-sabre): Implements
+* [Sawtooth Sabre](https://github.com/splintercommunity//sawtooth-sabre): Implements
   on-chain smart contracts that are executed in a WebAssembly virtual machine
 )
 * [Transact](https://github.com/splintercommunity/transact): Platform-agnostic

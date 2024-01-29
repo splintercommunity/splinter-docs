@@ -1,5 +1,6 @@
 # Challenge Authorization
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -354,7 +355,7 @@ circuits:
 [prior-art]: #prior-art
 
 This implementation is influenced by the Challenge Authorization in
-[Hyperledger Sawtooth](https://sawtooth.hyperledger.org/docs/1.2/architecture/validator_network.html#Authorization_Types).
+[Sawtooth](hhttps://sawtooth.splinter.dev/docs/1.2/architecture/validator_network.html#Authorization_Types).
 
 ## Unresolved questions
 [unresolved]: #unresolved

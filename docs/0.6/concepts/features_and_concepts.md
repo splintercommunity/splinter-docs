@@ -67,7 +67,7 @@ Splinter works across a network.
      ensure determinism.
 
    - _**Scabbard**_, an out-of-the-box Splinter service that runs
-     [Sawtooth Sabre](https://github.com/hyperledger/sawtooth-sabre)
+     [Sawtooth Sabre](https://github.com/splintercommunity//sawtooth-sabre)
      smart contracts across nodes, coordinated with consensus.
 
 ## Designed for applications

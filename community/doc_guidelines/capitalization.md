@@ -116,15 +116,15 @@ documentation and updating existing content.
 
 ## S
 
-* Sabre _(at first use: Hyperledger Sawtooth Sabre)_
+* Sabre _(at first use: Sawtooth Sabre)_
 * sapling
-* Sawtooth _(at first use: Hyperledger Sawtooth)_
+* Sawtooth _(at first use: Sawtooth)_
 * scabbard service
 * `scabbard` command _(always lowercase)_
 * SCAR file - smart contract archive file _(not "scar file" or ".scar file")_
 * Schema smart contract
 * SDK, SDKs
-* Seth _(at first use: Hyperledger Sawtooth Seth)_
+* Seth _(at first use: Sawtooth Seth)_
 * service names: admin service, scabbard service
 * smart contract
 * Splinter

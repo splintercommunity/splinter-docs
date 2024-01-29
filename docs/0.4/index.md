@@ -88,7 +88,7 @@ distributed ledger platform. Scabbard includes the following components:
   contracts with a smart contract engine. Transact handles all aspects of
   scheduling, transaction dispatch, and state management.
 
-* [Sawtooth Sabre](https://github.com/hyperledger/sawtooth-sabre), a smart
+* [Sawtooth Sabre](https://github.com/splintercommunity//sawtooth-sabre), a smart
   contract engine for WebAssembly (WASM) smart contracts
 
 * [Two-phase commit
@@ -171,7 +171,7 @@ communication mechanisms.
 
 ## Smart Contracts That Can Share State
 
-[Sawtooth Sabre](https://github.com/hyperledger/sawtooth-sabre), which is
+[Sawtooth Sabre](https://github.com/splintercommunity//sawtooth-sabre), which is
 included in the Scabbard service, implements **in-ledger smart contracts** that
 are executed in a WebAssembly (WASM) virtual machine. Smart contracts can be
 written in any language that can be compiled to WASM.
@@ -189,8 +189,8 @@ another smart contract's state, as controlled by Sabre permissions. Splinter's
 design for sharing state simplifies the complex approach of other blockchain
 platforms, where sharing state means embedding one smart contract into another.
 
-Sabre's smart contracts are compatible with [Hyperledger
-Sawtooth](https://github.com/hyperledger/sawtooth-core). You can write a
+Sabre's smart contracts are compatible with
+[Sawtooth](https://github.com/splintercommunity//sawtooth-core). You can write a
 Sawtooth transaction processor (Sawtooth's version of a smart contract) in Rust,
 then convert it to a Sabre smart contract that can be used for a Splinter
 circuit.
@@ -246,7 +246,7 @@ the Merkle-Radix tree, allowing multiple nodes or services to prove they have
 the same data down to the last bit, cryptographically.
 
 The Scabbard service implements a [Sawtooth-style event
-system](https://sawtooth.hyperledger.org/docs/1.2/architecture/events_and_transactions_receipts.html)
+system](https://sawtooth.splinter.dev//docs/1.2/architecture/events_and_transactions_receipts.html)
 so that applications can subscribe to events of interest. **State delta export**
 allows an application to materialize the state data from the Merkle-radix tree
 to another database, event stream, log, or other mechanism. This allows

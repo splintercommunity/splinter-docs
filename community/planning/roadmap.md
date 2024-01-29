@@ -68,7 +68,7 @@ of downtime for upgrades or single-point-of-failure issues.
 
 The roadmap is a collaborative effort derived from both agile community
 feedback and long-term vision. Communities building other open source projects
-which are built upon Splinter, such as Grid and Hyperledger
+which are built upon Splinter, such as Grid and
 Sawtooth, have a substantial impact on the roadmap. Non-public projects also
 have a substantial impact.
 

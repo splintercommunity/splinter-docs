@@ -602,7 +602,7 @@ link docs/0.7/howto/removing_a_splinter_circuit.md %}) tutorial.
 ## Uploading a Smart Contract
 
 Splinter uses the
-[Sawtooth Sabre](https://github.com/hyperledger/sawtooth-sabre) smart contract
+[Sawtooth Sabre](https://github.com/splintercommunity//sawtooth-sabre) smart contract
 engine with a built-in Splinter service called `scabbard` to update shared state
 on a circuit between two or more Splinter nodes. In this procedure, you'll
 upload an example smart contract.
