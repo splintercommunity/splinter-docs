@@ -97,7 +97,7 @@ For more information see [Generating Insecure Certificates for Development]({%
 link docs/0.4/howto/generating_insecure_certificates_for_development.md %})
 
 For an example of how this could be handled in a docker-compose.yaml file look
-at the [Gameroom](https://github.com/Cargill/splinter/blob/v0.3.12/examples/gameroom/docker-compose-dockerhub.yaml)
+at the [Gameroom](https://github.com/splintercommunity/splinter/blob/v0.3.12/examples/gameroom/docker-compose-dockerhub.yaml)
 example
 
 ## The CLI command to create a circuit was updated
@@ -252,7 +252,7 @@ two options for upgrading:
 building pattern that's enabled by the Sabre, Sawtooth, and Transact SDKs. This
 is the recommended approach because it greatly simplifies the process of
 creating Sabre transactions and batches. For an example of this pattern, see the
-[scabbard CLI](https://github.com/Cargill/splinter/blob/v0.3.12/services/scabbard/src/cli/main.rs)
+[scabbard CLI](https://github.com/splintercommunity/splinter/blob/v0.3.12/services/scabbard/src/cli/main.rs)
 
 ## The scabbard client's submit method has been changed
 If you are using the experimental scabbard client to submit batches, you will
@@ -272,4 +272,4 @@ In v0.3.12, the scabbard client's `upload` method has undergone some changes:
   calls the scabbard client to use Transact for batch building rather than the
   Sawtooth SDK.
 
-For an example of how to use the new `upload` method, see the [scabbard CLI](https://github.com/Cargill/splinter/blob/v0.3.12/services/scabbard/src/cli/main.rs).
+For an example of how to use the new `upload` method, see the [scabbard CLI](https://github.com/splintercommunity/splinter/blob/v0.3.12/services/scabbard/src/cli/main.rs).

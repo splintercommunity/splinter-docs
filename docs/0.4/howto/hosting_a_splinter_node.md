@@ -14,7 +14,7 @@ Splinter can be deployed anywhere a Docker image can run. Most examples will
 focus on Docker Compose, but if you choose to go with a Kubernetes
 deployment, we have an example of our gameroom demo app designed to work well
 with Minikube in the github repository. The [arcade.yaml
-file](https://github.com/Cargill/splinter/blob/main/docker/kubernetes/arcade.yaml)
+file](https://github.com/splintercommunity/splinter/blob/main/docker/kubernetes/arcade.yaml)
 can be used as a starting
 point for customizing your environment.
 

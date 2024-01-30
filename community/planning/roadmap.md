@@ -51,7 +51,7 @@ of downtime for upgrades or single-point-of-failure issues.
 | Circuit Name | Complete | [splinter circuit propose]({% link docs/0.6/references/cli/splinter-circuit-propose.1.md %}), [splinter circuit show]({% link docs/0.6/references/cli/splinter-circuit-show.1.md %}), [splinter circuit list]({% link docs/0.6/references/cli/splinter-circuit-list.1.md %}) |
 | Circuit Template | Complete | [How-to]({% link docs/0.6/howto/using_circuit_templates.md %}), [Man page]({% link docs/0.6/references/cli/splinter-circuit-propose.1.md %}) |
 | Challenge Authorization | Complete |[Challenge Authorization]({% link community/planning/challenge_authorization.md %})|
-| Cylinder Support | Complete | [Repo](https://github.com/Cargill/cylinder) |
+| Cylinder Support | Complete | [Repo](https://github.com/splintercommunity/cylinder) |
 | Cloud-friendly Deployment | Complete | [Admin Service Store Feature]({% link community/planning/admin_service_store.md %}), [Data Store Guidelines]({% link community/data_store_guidelines.md %}) |
 | Database - PostgreSQL Support | Complete | [Data Store Guidelines]({% link community/data_store_guidelines.md %}), [Configuring Splinter Daemon Database]({% link docs/0.6/howto/configure_database_storage.md %}) |
 | Database - SQLite Support | Complete | [Data Store Guidelines]({% link community/data_store_guidelines.md %}), [Configuring Splinter Daemon Database]({% link docs/0.6/howto/configure_database_storage.md %}) |
@@ -59,7 +59,7 @@ of downtime for upgrades or single-point-of-failure issues.
 | REST API - Cylinder JWT Authentication | Complete | [Cylinder JWT Authentication]({% link community/planning/cylinder_jwt_authentication.md %}) |
 | REST API - OAuth 2 Authentication | Complete | [OAuth 2 REST API Authentication]({% link community/planning/oauth2_rest_api_authentication.md %}) |
 | Transact SQL Support | Complete | [Code](https://github.com/splintercommunity/transact/tree/main/libtransact/src/database) |
-| WebSocket Transport | Experimental | [Code](https://github.com/Cargill/splinter/tree/main/libsplinter/src/transport/ws) |
+| WebSocket Transport | Experimental | [Code](https://github.com/splintercommunity/splinter/tree/main/libsplinter/src/transport/ws) |
 
 
 ## Additional Information
@@ -68,7 +68,7 @@ of downtime for upgrades or single-point-of-failure issues.
 
 The roadmap is a collaborative effort derived from both agile community
 feedback and long-term vision. Communities building other open source projects
-which are built upon Splinter, such as Grid and Hyperledger
+which are built upon Splinter, such as Grid and
 Sawtooth, have a substantial impact on the roadmap. Non-public projects also
 have a substantial impact.
 

@@ -17,7 +17,7 @@ connections.
 
 ## Cryptographic Signing with Public/Private Keys
 
-Like [Hyperledger Sawtooth](https://sawtooth.hyperledger.org/) and other
+Like [Sawtooth](https://sawtooth.splinter.dev/) and other
 distributed ledgers, Splinter supports [key-based cryptographic
 signing](https://en.wikipedia.org/wiki/Public-key_cryptography). Specifically,
 Splinter uses the [Cylinder](https://docs.rs/cylinder/0.2.2/cylinder/) library
@@ -163,9 +163,9 @@ For an example of a smart contract that uses Pike smart permissions, see the
 For more information, see the [Pike Transaction Family
 Specification](https://grid.splinter.dev/docs/0.3/pike_smart_contract_specification.html),
 [Sawtooth Sabre: Smart
-Permissions](https://sawtooth.hyperledger.org/docs/1.2/sabre/smart_permissions.html),
+Permissions](https://sawtooth.splinter.dev//docs/1.2/sabre/smart_permissions.html),
 and [Sawtooth Sabre Application Developer's
-Guide](https://sawtooth.hyperledger.org/docs/1.2/sabre/application_developer_guide.html).
+Guide](https://sawtooth.splinter.dev//docs/1.2/sabre/application_developer_guide.html).
 
 ## REST API Security
 

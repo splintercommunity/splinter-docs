@@ -1,6 +1,7 @@
 # Stable Feature Checklist
 
 <!--
+  Copyright 2024, Bitwise IO, Inc.
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -60,10 +61,10 @@ must be complete before an experimental feature can be moved into stable:
     * Features should be documented at a feature level in the Splinter Docs
       repo or/and have complete rust API doc comments.
 * New configuration settings or options have been added to the
-  [example splinterd config file](https://github.com/Cargill/splinter/blob/main/splinterd/packaging/splinterd.toml.example)
+  [example splinterd config file](https://github.com/splintercommunity/splinter/blob/main/splinterd/packaging/splinterd.toml.example)
   (where applicable).
 * Any new cli commands or subcommands have been added to the Splinter CLI
-  [bash completions file](https://github.com/Cargill/splinter/blob/main/cli/packaging/ubuntu/completions/splinter)
+  [bash completions file](https://github.com/splintercommunity/splinter/blob/main/cli/packaging/ubuntu/completions/splinter)
   (where applicable).
 
 

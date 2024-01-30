@@ -47,7 +47,7 @@ and 1 three-party scabbard circuit are established, resulting in one node
 being a part of 2 separate circuits. For each circuit, the Command family
 smart contract is configured on all scabbard services. For more information on
 the Command Family see the
-[RFC](https://github.com/hyperledger/transact-rfcs/pull/6).
+[RFC](https://github.com/splintercommunity//transact-rfcs/pull/6).
 
 The Transact `transact workload` subcommand is set up against each
 circuit for the Command Family and submits transactions at a rate of 2 per
@@ -82,7 +82,7 @@ Clone, update and build the Splinter and Grid repositories.
 Clone the Splinter git repository and checkout the 0-4 branch:
 
 ```
-$ git clone git@github.com:Cargill/splinter.git
+$ git clone git@github.com:splintercommunity/splinter.git
 $ cd splinter
 $ git fetch origin
 $ git checkout origin/0-4
@@ -122,7 +122,7 @@ $ export PATH=$PATH:$(pwd)/target/debug
 Clone the Grid git repository:
 
 ```
-$ git clone git@github.com:hyperledger/grid.git
+$ git clone git@github.com:splintercommunity/grid.git
 $ cd grid
 ```
 

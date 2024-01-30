@@ -8,11 +8,12 @@
 -->
 
 Canopy is a JavaScript framework for building the client-side web portion of a
-full-stack [Splinter](https://github.com/Cargill/splinter) application. A
-Canopy application is a React app that can dynamically load _saplings_ — user
-interface (UI) plugins — to provide a custom UI for Splinter. The application
-can choose which saplings to load based on enterprise requirements, user
-permissions, smart contracts, Splinter configuration, or other information.
+full-stack [Splinter](https://github.com/splintercommunity/splinter)
+application. A Canopy application is a React app that can dynamically load
+_saplings_ — user interface (UI) plugins — to provide a custom UI for Splinter.
+The application can choose which saplings to load based on enterprise
+requirements, user permissions, smart contracts, Splinter configuration, or
+other information.
 
 The Canopy framework consists of two JavaScript libraries:
 
@@ -20,13 +21,13 @@ The Canopy framework consists of two JavaScript libraries:
   provides functionality for loading saplings into a Canopy application, exposes
   shared configuration to saplings and the Canopy application, and implements
   some of the functions defined in SaplingJS. CanopyJS is available on GitHub at
-  [Cargill/splinter-canopyjs](https://github.com/Cargill/splinter-canopyjs).
+  [splintercommunity/splinter-canopyjs](https://github.com/splintercommunity/splinter-canopyjs).
 
 * **SaplingJS** is a library for the UI plugins (also called _UI apps_) that
   run in a Canopy application. This library provides common functionality for
   tasks such as user registration and login, user storage, transaction
   submission, and Canopy configuration. SaplingJS is available on GitHub at
-  [Cargill/splinter-saplingjs](https://github.com/Cargill/splinter-saplingjs).
+  [splintercommunity/splinter-saplingjs](https://github.com/splintercommunity/splinter-saplingjs).
 
 ## Canopy Features
 

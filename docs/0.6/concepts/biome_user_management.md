@@ -1,6 +1,7 @@
 # Biome User Management
 
 <!--
+  Copyright 2024 Bitwise IO, Inc
   Copyright 2018-2021 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -78,8 +79,8 @@ The design of Biome includes the following assumptions:
 
 ### CanopyJS Library for Saplings
 
-The [CanopyJS library](https://github.com/Cargill/splinter-canopyjs) provides
-code so that saplings (Splinter web apps) can use the key management
+The [CanopyJS library](https://github.com/splintercommunity/splinter-canopyjs)
+provides code so that saplings (Splinter web apps) can use the key management
 functionality of Biome, as well as handlers to make key data available across
 saplings running in Canopy. This code includes a function to generate a new
 keypair using the secp256k1 algorithm, as well as handlers to store an active
@@ -95,7 +96,7 @@ library to allow an app to take the following actions:
 The Profile sapling encrypts the private key before sending it to Biome. This
 sapling is responsible for all direct communication with the Biome endpoints.
 For more information, see the [splinter-canopyjs
-repository](https://github.com/Cargill/splinter-canopyjs).
+repository](https://github.com/splintercommunity/splinter-canopyjs).
 
 ### The libsplinter biome module
 

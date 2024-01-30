@@ -8,7 +8,7 @@
 Splinter v0.6 is a major new release.  Here's a summary of the new and
 noteworthy features in this release. For detailed changes related to the v0.6
 release see the [Splinter release
-notes](https://github.com/Cargill/splinter/blob/0-6/RELEASE_NOTES.md).
+notes](https://github.com/splintercommunity/splinter/blob/0-6/RELEASE_NOTES.md).
 
 ## New and Noteworthy
 
@@ -173,9 +173,9 @@ walkthrough for the Gameroom example application.
 ## Splinter Software
 
 Splinter is open-source software that is available on GitHub in
-[Cargill/splinter](https://github.com/Cargill/splinter). Prebuilt Docker images
-are published on
+[splintercommunity/splinter](https://github.com/splintercommunity/splinter).
+Prebuilt Docker images are published on
 [splintercommunity](https://hub.docker.com/u/splintercommunity).
 
 For information on building and running Splinter, see the [Splinter
-README](https://github.com/Cargill/splinter/blob/0-6/README.md).
+README](https://github.com/splintercommunity/splinter/blob/0-6/README.md).

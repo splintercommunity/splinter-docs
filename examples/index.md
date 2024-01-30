@@ -23,10 +23,10 @@ Gameroom demonstrates the following items:
   with securely shared state.
 * **Splinter Biome** user management, which stores user and credential
   information locally and securely shares it with other systems in the network.
-* **Hyperledger Sawtooth Sabre** smart contract engine, which runs WebAssembly
+* **Sawtooth Sabre** smart contract engine, which runs WebAssembly
   (WASM) smart contracts. Sabre is included in the Splinter scabbard service.
 * **Transact** for executing smart contracts with transactions.
-* **Hyperledger Sawtooth's XO smart contract** for the business logic of tic tac
+* **Sawtooth's XO smart contract** for the business logic of tic tac
   toe (gameplay rules)
 
 <a href ="/docs/0.6/examples/gameroom/"
@@ -44,7 +44,7 @@ open standards and industry best practices.
 
 This example demonstrates how to combine the Splinter framework with other
 Splinter Community components into a single, effective business solution. It
-includes Hyperledger's Sawtooth Sabre smart contract engine and the Pike,
+includes Sawtooth Sabre smart contract engine and the Pike,
 Product, and Schema smart contracts.
 
 * **Pike** handles organization and identity permissions with Sabre, a smart

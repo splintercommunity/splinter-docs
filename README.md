@@ -4,7 +4,7 @@
 
 # splinter-docs Repository
 
-[Splinter](https://github.com/Cargill/splinter) is a privacy-focused platform
+[Splinter](https://github.com/splintercommunity/splinter) is a privacy-focused platform
 for distributed applications that provides a blockchain-inspired networking
 environment for private communication and transactions between organizations.
 
@@ -69,8 +69,3 @@ You can obtain a copy of the license at
 The Splinter documentation tools and associated content in this repository are
 licensed under the [Apache License Version 2.0](LICENSE) software license.
 
-## Code of Conduct
-
-This project, like the general Splinter project, operates under the
-[Cargill Code of
-Conduct](https://github.com/Cargill/code-of-conduct/blob/master/code-of-conduct.md).

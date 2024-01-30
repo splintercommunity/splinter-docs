@@ -5,6 +5,7 @@ mermaid: true
 # Publisher for Scabbard v3
 
 <!--
+  Copyright 2024 Bitwise IO, Inc.
   Copyright 2018-2022 Cargill Incorporated
   Licensed under Creative Commons Attribution 4.0 International License
   https://creativecommons.org/licenses/by/4.0/
@@ -14,7 +15,7 @@ mermaid: true
 The publisher component is in charge of executing pending batches and building
 the finished result that will be used by some supervisor in consensus
 agreement. The published result may be a block, like in
-[Hyperledger Sawtooth](https://sawtooth.hyperledger.org/), or the
+[Sawtooth](https://sawtooth.splinter.dev/) or the
 execution result of one or more batches like in Scabbard.
 
 The following design proposes an implementation for publishing that is flexible
@@ -72,7 +73,7 @@ throwing away any completed batch execution results.
 
 The following traits will be used by either being Boxed and passed to the
 structs, as generics or as associated types. The traits will live in
-the [Hyperledger Sawtooth library](https://github.com/hyperledger/sawtooth-lib).
+the [Sawtooth library](https://github.com/splintercommunity/sawtooth-lib).
 
 #### Artifact
 
@@ -584,9 +585,8 @@ that differs from the above process.
 
 ## Prior art
 
-This design is inspired by the existing Publisher in [Hyperledger
-Sawtooth](https://sawtooth.hyperledger.org/) Core
-and the Sawtooth library. As well as the publishing process that is used in
+This design is inspired by the existing Publisher in [Sawtooth](https://sawtooth.splinter.dev/)
+Core and the Sawtooth library. As well as the publishing process that is used in
 Scabbard and the transaction execution process in [
 Transact](https://docs.rs/transact/0.4.7/transact/index.html).
 
