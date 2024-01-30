@@ -15,7 +15,7 @@ PDF](https://files.splinter.dev/docs/Gameroom_Walkthrough-Splinter_v0.3.4.pdf).
 ## Introduction
 
 Distributed ledger technologies have the potential to revolutionize how businesses
-communicate and transact. At Cargill, we are leading the revolution with
+communicate and transact. We are leading the revolution with
 involvement in several open-source projects, including Sawtooth,
 Transact, and Splinter. This document outlines an example application,
 Gameroom, that uses technologies from each of these projects to demonstrate our
